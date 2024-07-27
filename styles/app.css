@@ -1665,27 +1665,27 @@ video {
 }
 
 .font-semibold {
-  font-family: 'SegoeUI-SemiBold', 'sans-serif';
+  font-family: 'SegoeUI-SemiBold', '-apple-system-400';
   font-weight: 400;
 }
 
 .font-medium {
-  font-family: 'SegoeUI-SemiBold', 'sans-serif';
+  font-family: 'SegoeUI-SemiBold', '-apple-system-400';
   font-weight: 400;
 }
 
 .font-normal {
-  font-family: 'SegoeUI', 'sans-serif';
+  font-family: 'SegoeUI', '-apple-system-400';
   font-weight: 400;
 }
 
 .font-bold {
-  font-family: 'SegoeUI-Bold', 'sans-serif';
+  font-family: 'SegoeUI-Bold', '-apple-system-500';
   font-weight: 500;
 }
 
 .font-extrabold {
-  font-family: 'SegoeUI-Bold', 'sans-serif';
+  font-family: 'SegoeUI-Bold', '-apple-system-600';
   font-weight: 600;
 }
 
