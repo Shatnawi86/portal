@@ -2,10 +2,17 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ['ClanPro','-apple-system,BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu,Cantarell','Helvetica Neue'],
-      }
+    fontFamily: {
+      sans: [
+        'SegoeUI,SegoeUI, SegoeUI-Light, SegoeUI-SemiLight, SegoeUI-Bold, SegoeUI-SemiBold, arial, sans, sans-serif'
+      ],
+      segoesemibold: ['SegoeUI-SemiBold', 'sans-serif'],
+      segoebold: ['SegoeUI-Bold', 'sans-serif'],
+
+    },
+    fontWeight: {
+      segoesemibold: 400,
+      segoebold: 500,
     },
   },
   plugins: [],
