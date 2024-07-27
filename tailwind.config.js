@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        'SegoeUI,SegoeUI, SegoeUI-Light, SegoeUI-SemiLight, SegoeUI-Bold, SegoeUI-SemiBold, arial, sans, sans-serif'
+        'SegoeUI,SegoeUI, SegoeUI-Light, SegoeUI-SemiLight, SegoeUI-Bold, SegoeUI-SemiBold,-apple-system, arial, sans, sans-serif'
       ],
-      segoesemibold: ['SegoeUI-SemiBold', 'sans-serif'],
-      segoebold: ['SegoeUI-Bold', 'sans-serif'],
+      segoesemibold: ['SegoeUI-SemiBold', '-apple-system-500'],
+      segoebold: ['SegoeUI-Bold', '-apple-system-600'],
 
     },
     fontWeight: {
