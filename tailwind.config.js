@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        'Segoe UI', 'SegoeUInBold', 'SegoeUIn SemiBold'
+        'SegoeUI,SegoeUI, SegoeUI-Light, SegoeUI-SemiLight, SegoeUI-Bold, SegoeUI-SemiBold,ClanPro, -apple-system,BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu,Cantarell, Helvetica Neue'
       ],
-      segoesemibold: ['Segoe UI SemiBold', '-apple-system-600'],
-      segoebold: ['SegoeUI Bold', '-apple-system-700'],
-      segoeextrabold: ['SegoeUI Bold', '-apple-system-800'],
+      segoesemibold: ['SegoeUI-SemiBold', '-apple-system-600'],
+      segoebold: ['SegoeUI-Bold', '-apple-system-700'],
+      segoeextrabold: ['SegoeUI-Bold', '-apple-system-800'],
 
     },
     fontWeight: {
