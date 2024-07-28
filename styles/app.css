@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: SegoeUI,SegoeUI, SegoeUI-Light, SegoeUI-SemiLight, SegoeUI-Bold, SegoeUI-SemiBold,ClanPro, -apple-system,BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu,Cantarell, Helvetica Neue;
+  font-family: Segoe UI, SegoeUInBold, SegoeUIn SemiBold;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -447,23 +447,7 @@ video {
 }
 
 @font-face {
-  font-family: SegoeUI-Light;
-
-  font-display: swap;
-
-  src: local('Segoe UI Light'), local('SegoeUI-Light'), local('Segoe WP Light'), url(/Styles//segoeui_light.woff2) format('woff2'), url(/Styles//segoeui_light.woff) format('woff'), url(/Styles//segoeui_light.ttf) format('truetype')
-}
-
-@font-face {
-  font-family: SegoeUI-SemiLight;
-
-  font-display: swap;
-
-  src: local('Segoe UI Semilight'), local('SegoeUI-Semilight'), local('Segoe WP Semilight'), url(/Styles//segoeui_semilight.woff2) format('woff2'), url(/Styles//segoeui_semilight.woff) format('woff'), url(/Styles//segoeui_semilight.ttf) format('truetype')
-}
-
-@font-face {
-  font-family: SegoeUI;
+  font-family: 'Segoe UI';
 
   font-display: swap;
 
@@ -471,7 +455,7 @@ video {
 }
 
 @font-face {
-  font-family: SegoeUI-SemiBold;
+  font-family: 'Segoe UI Semibold';
 
   font-display: swap;
 
@@ -479,7 +463,7 @@ video {
 }
 
 @font-face {
-  font-family: SegoeUI-Bold;
+  font-family: 'Segoe UI Bold';
 
   font-display: swap;
 
@@ -1665,27 +1649,27 @@ video {
 }
 
 .font-semibold {
-  font-family: 'SegoeUI-SemiBold', '-apple-system-600', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
+  font-family: 'Segoe UI SemiBold', '-apple-system-600', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
   font-weight: 400;
 }
 
 .font-medium {
-  font-family: 'SegoeUI-SemiBold','-apple-system-600',  '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
+  font-family: 'Segoe UI SemiBold','-apple-system-600',  '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
   font-weight: 400;
 }
 
 .font-normal {
-  font-family: 'SegoeUI','-apple-system-400', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
+  font-family: 'Segoe UI','-apple-system-400', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
   font-weight: 400;
 }
 
 .font-bold {
-  font-family: 'SegoeUI-Bold', '-apple-system-700', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
+  font-family: 'Segoe UI Bold', '-apple-system-700', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
   font-weight: 500;
 }
 
 .font-extrabold {
-  font-family: 'SegoeUI-Bold', '-apple-system-800', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
+  font-family: 'Segoe UI Bold', '-apple-system-800', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
   font-weight: 600;
 }
 
