@@ -4,6 +4,26 @@
 
 @layer utilities {
     .font-semibold {
+        font-family: 'Segoe UI' !important; 
+        font-weight: 600;
+      }
+      .font-medium {
+        font-family: 'Segoe UI' !important; 
+          font-weight: 500;
+        }
+        .font-normal {
+            font-family: 'Segoe UI' !important; 
+          font-weight: 400;
+        }
+      .font-bold {
+        font-family: 'Segoe UI' !important; 
+          font-weight: 700;
+        }
+        .font-extrabold {
+            font-family: 'Segoe UI' !important; 
+          font-weight: 800;
+        }
+    /* .font-semibold {
       font-family: 'Segoe UI SemiBold', '-apple-system-600', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue'; 
       font-weight: 400;
     }
@@ -22,12 +42,21 @@
       .font-extrabold {
         font-family: 'Segoe UI Bold', '-apple-system-800', '-apple-system','BlinkMacSystemFont',' Segoe UI',' Roboto',' Oxygen-Sans',' Ubuntu','Cantarell',' Helvetica Neue';
         font-weight: 600;
-      }
+      } */
   }
 
 @layer base {
  
     @font-face {
+        font-family: 'Segoe UI';
+        src: url('/Styles/SegoeUI.eot');
+        src: url('/Styles/SegoeUI.eot?#iefix') format('embedded-opentype'),
+            url('/Styles/SegoeUI.woff') format('woff'),
+            url('/Styles/SegoeUI.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /* @font-face {
         font-family: 'Segoe UI';
         font-display: swap;
         src: local('Segoe UI'), local('SegoeUI'), local('Segoe WP'), url(/Styles//segoeui_regular.woff2) format('woff2'), url(/Styles//segoeui_regular.woff) format('woff'), url(/Styles//segoeui_regular.ttf) format('truetype')
@@ -43,5 +72,5 @@
         font-family: 'Segoe UI Bold';
         font-display: swap;
         src: local('Segoe UI Bold'), local('SegoeUI-Bold'), local('Segoe WP Bold'), url(/Styles//segoeui_bold.woff2) format('woff2'), url(/Styles//segoeui_bold.woff) format('woff'), url(/Styles//segoeui_bold.ttf) format('truetype')
-    }
+    } */
 }
