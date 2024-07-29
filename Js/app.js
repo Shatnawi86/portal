@@ -2,21 +2,15 @@ document.addEventListener('DOMContentLoaded', async function () {
   const footer = document.querySelector(".footer");
   const yearly = document.getElementById('yearly');
   const monthly = document.getElementById('monthly');
-  const path = window.location.pathname.split('/').filter(part => part !== "" && !part.includes('html'));
-  let element;
-  if(path.length > 0){
-    if(path[0] === 'index.html')
-        element = document.querySelector('.home');
-    else
-        element = document.querySelector(`.${path[0]}`); 
-  }else if(path.length === 0){
-    element = document.querySelector('.home');
-  }
-  if(element){
-    element.classList.add('text-blue-600');
-    element.style.textDecoration = "underline";
-    element.style.textUnderlineOffset = "32px";
-    element.style.textDecorationThickness = "3px";
+
+  const bodyClass = document.body.classList;
+  if(bodyClass.length === 1){
+      const pageClass = bodyClass[0].replace('Page', '');
+      const element = document.querySelector(`.${pageClass}`);
+      if(element){
+        element.classList.add('text-blue-600');
+        element.classList.add('lg:uTitle');
+      }
   }
   if (yearly && monthly) {
     const prices = document.querySelectorAll('.planPrice');
