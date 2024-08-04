@@ -206,7 +206,7 @@
         </nav>
     </div>
 
-    <div class="flex flex-col space-y-16">
+    <div class="flex flex-col space-y-16 items-center justify-center">
         <section class="flex w-full p-4 space-x-4 space-y-2 md:space-y-0 flex-col items-center bg-gradient-to-r from-teal-50 to-sky-50">
             <div class="flex flex-col md:flex-row md:space-x-16 mb-4">
                 <div class="w-full md:w-1/2 flex flex-col justify-center space-y-10">
@@ -214,7 +214,7 @@
                         Pricing
                     </h1>
                     <h2 class="text-justify">
-                        <span class="font-bold">Unlock the full potential of ClinyPal with our 60-day free trial.
+                        <span class="font-bold text-title">Unlock the full potential of ClinyPal with our 60-day free trial.
                         </span>
                         During this period, you will have access to all features without any restrictions. Explore everything ClinyPal has to offer and see how it can transform your practice.
                     </h2>
@@ -276,14 +276,14 @@
                     <li>
                         <input type="radio" id="monthly" name="plans" value="mothly" class="hidden peer" checked />
                         <label for="monthly"
-                            class="inline-flex items-center justify-center w-full p-3 text-black bg-sky-100  rounded-l-lg cursor-pointer peer-checked:bg-blue-800 peer-checked:text-white hover:bg-sky-100">
+                            class="inline-flex items-center justify-center w-full p-3 text-black bg-sky-100  rounded-l-lg cursor-pointer peer-checked:bg-blue-800 peer-checked:text-white hover:bg-sky-200">
                             Monthly
                         </label>
                     </li>
                     <li>
                         <input type="radio" id="yearly" name="plans" value="yearly" class="hidden peer">
                         <label for="yearly"
-                            class="inline-flex items-center justify-center w-full p-3 text-black bg-sky-100 rounded-r-lg cursor-pointer peer-checked:bg-blue-800 peer-checked:text-white hover:bg-sky-100">
+                            class="inline-flex items-center justify-center w-full p-3 text-black bg-sky-100 rounded-r-lg cursor-pointer peer-checked:bg-blue-800 peer-checked:text-white hover:bg-sky-200">
                             Yearly
                         </label>
                     </li>
@@ -373,49 +373,71 @@
             </div>
       
         </section>
-        <section class="flex flex-col space-y-10 md:space-y-0 md:flex-row p-4 mt-10 place-items-start">
-            <div class="space-y-10 w-full md:w-1/2 flex flex-col items-center">
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">What happens after the 60-days trial end?</h3>
-                    <p class="w-full md:w-96">After the 60-day trial period, you can continue using ClinyPal by choosing a subscription plan based on the number of practitioners in your practice.</p>
-                </div>
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">Are there any surprise charges?</h3>
-                    <p class="w-full md:w-96">No, there are no upfront or hidden fees. You only pay for your subscription and any SMS charges incurred.</p>
-                </div>
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">What fees will I be charged?</h3>
-                    <p class="w-full md:w-96">You will be charged for your subscription amount plus any incurred SMS fees.</p>
-                </div>
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">Is there a minimum commitment?</h3>
-                    <p class="w-full md:w-96">No, there is no minimum contract or subscription term. You can cancel anytime.</p>
-                </div>
-              
+
+        <section class="flex flex-col space-y-8 p-4 justify-center items-center w-full md:w-2/3">
+            <div class="flex space-x-2 font-semibold text-title text-2xl md:text-3xl">
+                <h2 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-800 to-black text-center">
+                    Pricing 
+                </h2>
+                <h2 class="text-center">FAQs</h2>
             </div>
-            
-            <div class="space-y-10 w-full md:w-1/2 flex flex-col items-center">
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">What payment types are accepted?</h3>
-                    <p class="w-full md:w-96">We accept Visa, Mastercard, and other major credit cards.</p>
-                </div>
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">Free Email Communication</h3>
-                    <p class="w-full md:w-96">ClinyPal keeps it free! Email communication, including appointment reminders and follow-ups, is always on us.</p>
-                </div>
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">Affordable SMS Charges</h3>
-                    <p class="w-full md:w-96">While email communication is free, SMS messages will incur a charge. We offer competitive rates to ensure that your communication remains cost-effective.</p>
-                </div>
-                <div class="flex flex-col space-y-2">
-                    <h3 class="font-bold text-lg text-title">Any other questions?</h3>
-                    <p class="w-full md:w-96">If you have any other questions, please get in touch with our support team.</p>
-                </div>
-            </div>
-           
+          
+            <h3 class="text-base w-full md:w-1/2 text-center">
+                Find answers to common questions about our pricing plans and features.
+            </h3>
+            <a href="#" class="py-2.5 px-5 text-center transition-all duration-300 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none rounded-lg border border-blue-700">
+                Visit Help Page
+            </a>
         </section>
+        <div class="w-full py-8 flex items-center justify-center bg-gradient-to-b from-sky-50 to-white">
+            <div class="bg-white rounded-lg border shadow-lg w-[90%] py-10">
+                <section class="flex flex-col space-y-10 md:space-y-0 md:flex-row p-4 place-items-start">
+                    <div class="space-y-10 w-full md:w-1/2 flex flex-col items-center">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">What happens after the 60-days trial end?</h3>
+                            <p class="w-full md:w-96">After the 60-day trial period, you can continue using ClinyPal by choosing a subscription plan based on the number of practitioners in your practice.</p>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">Are there any surprise charges?</h3>
+                            <p class="w-full md:w-96">No, there are no upfront or hidden fees. You only pay for your subscription and any SMS charges incurred.</p>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">What fees will I be charged?</h3>
+                            <p class="w-full md:w-96">You will be charged for your subscription amount plus any incurred SMS fees.</p>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">Is there a minimum commitment?</h3>
+                            <p class="w-full md:w-96">No, there is no minimum contract or subscription term. You can cancel anytime.</p>
+                        </div>
+                      
+                    </div>
+                    
+                    <div class="space-y-10 w-full md:w-1/2 flex flex-col items-center">
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">What payment types are accepted?</h3>
+                            <p class="w-full md:w-96">We accept Visa, Mastercard, and other major credit cards.</p>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">Free Email Communication</h3>
+                            <p class="w-full md:w-96">ClinyPal keeps it free! Email communication, including appointment reminders and follow-ups, is always on us.</p>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">Affordable SMS Charges</h3>
+                            <p class="w-full md:w-96">While email communication is free, SMS messages will incur a charge. We offer competitive rates to ensure that your communication remains cost-effective.</p>
+                        </div>
+                        <div class="flex flex-col space-y-2">
+                            <h3 class="font-bold text-lg text-title">Any other questions?</h3>
+                            <p class="w-full md:w-96">If you have any other questions, please get in touch with our support team.</p>
+                        </div>
+                    </div>
+                   
+                </section>
+            </div>
+        </div>
+
+
         <section class="flex flex-col space-y-10 p-4 items-center justify-center">
-            <div class="flex flex-col space-y-3 w-full md:w-1/2 items-center justify-center text-center">
+            <div class="flex flex-col space-y-3 w-full md:w-2/3 items-center justify-center text-center">
                 <div>
                     <h2 class="text-lg font-bold text-pink-700">Try for Free, No Commitment</h2>
                     <h3 class="text-2xl md:text-4xl font-extrabold text-title">
@@ -431,7 +453,7 @@
     
             <a href="/free-trial/"
                 class="py-2.5 px-5 text-center w-80 font-medium transition-all duration-300 bg-pink-800 text-white hover:text-pink-800 hover:bg-white focus:outline-none rounded-lg border border-pink-800">
-                Start your 60-days free trial
+                Unlock Your 60-Day Free Trial Today!
             </a>
     
     
